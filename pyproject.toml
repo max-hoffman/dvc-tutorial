@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dvc-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Max Hoffman <max@dolthub.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+dvc = "^2.0.5"
+cffi = "^1.14.5"
+cached_property = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
